@@ -1,0 +1,23 @@
+{
+  "name": "node-youtube",
+  "version": "1.0.0",
+  "description": "aprendendo node e criação de API",
+  "main": "index.js",
+  "scripts": {
+    "start":"echo \"Opa Chefe !\" && nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Paulo",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "faker": "^5.5.1",
+    "fetch": "^1.1.0",
+    "mongodb": "^3.6.5",
+    "mongoose": "^5.12.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
